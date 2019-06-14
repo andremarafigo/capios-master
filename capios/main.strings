@@ -1,0 +1,32 @@
+/* 
+  main.strings
+  capios
+
+  Created by PUCPR on 12/06/19.
+  Copyright © 2019 Adriano. All rights reserved.
+*/
+
+// class CreateAccountViewController
+"homeViewTitle" = "App Execícios";
+"valetUsername" = "username";
+"valetPassword" = "password";
+"title_createAccountVC" = "Criar Conta";
+"alertTitleCreateAccountErro" = "ixi! Deu Erro!";
+"alertMessageCreateAccountErro" = "Já existe um usuário ou senha salvos no Keychain";
+"alertTitleButtonCreateAccountErro" = "OK";
+"alertTitleCreateAccountSucesso" = "Opa!";
+"alertMessageCreateAccountSucesso" = "Deu certo! Conta criada com sucesso!";
+"alertTitleButtonCreateAccountSucesso" = "OK";
+
+// class LoginViewController
+"loginUsernameLabel_accessibilityLabel" = "Usuário";
+"loginPasswordLabel_accessibilityLabel" = "Password";
+"usernameTxtFiled_accessibilityLabel" = "Campo editável, Usuário";
+"usernameTxtFiled_accessibilityHint" = "Informar seu usuário para logar no aplicativo";
+"passwordTxtField_accessibilityLabel" = "Campo editável, Senha";
+"passwordTxtField_accessibilityHint" = "Informar sua senha para logar no aplicativo";
+"loginButton_accessibilityLabel" = "Login";
+"loginButton_accessibilityHint" = "Efetuar login no aplicativo";
+
+// class MenuViewController
+"menuViewTitle" = "Menu"

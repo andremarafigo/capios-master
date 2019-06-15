@@ -7,13 +7,28 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class MenuViewController: UIViewController {
 
+    @IBOutlet weak var buttonContatos: UIButton!
+    
+    let disposeBag: DisposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = R.string.main.
+        self.title = R.string.main.menuViewTitle()
+        
+        buttonContatos.rx.tap.subscribe(onNext: {
+            [weak self] in
+            guard let `self` = self else { return }
+            
+            if let vc = R.storyboard.trainingExercises.contatosViewController(){
+                self.navigationController?.pushViewController(vc, animated: true)
+            }
+        }).disposed(by: disposeBag)
     }
     
 

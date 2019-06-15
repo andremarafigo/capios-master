@@ -20,7 +20,7 @@
 
 // class LoginViewController
 "loginUsernameLabel_accessibilityLabel" = "Usuário";
-"loginPasswordLabel_accessibilityLabel" = "Password";
+"loginPasswordLabel_accessibilityLabel" = "Senha";
 "usernameTxtFiled_accessibilityLabel" = "Campo editável, Usuário";
 "usernameTxtFiled_accessibilityHint" = "Informar seu usuário para logar no aplicativo";
 "passwordTxtField_accessibilityLabel" = "Campo editável, Senha";
@@ -29,4 +29,10 @@
 "loginButton_accessibilityHint" = "Efetuar login no aplicativo";
 
 // class MenuViewController
-"menuViewTitle" = "Menu"
+"menuViewTitle" = "Bem-Vindo ao seu App";
+"alertTitleMenuVcErro" = "ixi! Deu Erro!";
+"alertMessageMenuVcErro" = "Usuário ou Senha inválidos";
+"alertTitleButtonMenuVcErro" = "OK";
+
+// clas ContatosViewController
+"contatosViewTitle" = "Meus Contatos";

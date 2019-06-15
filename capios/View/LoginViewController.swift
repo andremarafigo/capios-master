@@ -84,13 +84,16 @@ class LoginViewController: UIViewController {
             let _passwordTextField = self.passwordTxtField.text {
                 if username == _usernameTextField && password == _passwordTextField {
                     print("sucessso")
+                    if let vc = R.storyboard.trainingExercises.menuViewController() {
+                        self.navigationController?.pushViewController(vc, animated: true)
+                    }
                 }else {
                     print("fail")
+                    let alert = UIAlertController(title: R.string.main.alertTitleMenuVcErro(), message: R.string.main.alertMessageMenuVcErro(), preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: R.string.main.alertTitleButtonMenuVcErro(), style: .default, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                    return
                 }
-            }
-            
-            if let vc = R.storyboard.trainingExercises.menuViewController() {
-                self.navigationController?.pushViewController(vc, animated: true)
             }
         }).disposed(by: disposeBag)
     }

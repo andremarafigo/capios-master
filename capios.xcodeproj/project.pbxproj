@@ -10,6 +10,8 @@
 		13BA597722B1B7C800285AE6 /* main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13BA597622B1B7C800285AE6 /* main.strings */; };
 		13BA597922B1BD5B00285AE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BA597822B1BD5B00285AE6 /* LoginViewController.swift */; };
 		13C2644122B461C300535770 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2644022B461C300535770 /* MenuViewController.swift */; };
+		13C2644322B46A2F00535770 /* ContatosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2644222B46A2F00535770 /* ContatosViewController.swift */; };
+		13C2644522B4767100535770 /* Aula sexta.md in Resources */ = {isa = PBXBuildFile; fileRef = 13C2644422B4767100535770 /* Aula sexta.md */; };
 		25261A9222ADABB900CCD0E5 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25261A9022ADABB900CCD0E5 /* ContactTableViewCell.swift */; };
 		25261A9322ADABB900CCD0E5 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25261A9122ADABB900CCD0E5 /* ContactTableViewCell.xib */; };
 		25261A9B22ADC0C200CCD0E5 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25261A9A22ADC0C200CCD0E5 /* Contact.swift */; };
@@ -38,6 +40,8 @@
 		13BA597622B1B7C800285AE6 /* main.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = main.strings; sourceTree = "<group>"; };
 		13BA597822B1BD5B00285AE6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		13C2644022B461C300535770 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		13C2644222B46A2F00535770 /* ContatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosViewController.swift; sourceTree = "<group>"; };
+		13C2644422B4767100535770 /* Aula sexta.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Aula sexta.md"; sourceTree = "<group>"; };
 		25261A9022ADABB900CCD0E5 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		25261A9122ADABB900CCD0E5 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
 		25261A9A22ADC0C200CCD0E5 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 				50EA454022AA77F6004EE63D /* CreateAccountViewController.swift */,
 				13BA597822B1BD5B00285AE6 /* LoginViewController.swift */,
 				13C2644022B461C300535770 /* MenuViewController.swift */,
+				13C2644222B46A2F00535770 /* ContatosViewController.swift */,
 				B9448FB52283463D00E342DE /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -169,6 +174,7 @@
 				B9448FB32283463D00E342DE /* Assets.xcassets */,
 				B9448FB82283463D00E342DE /* Info.plist */,
 				B9F72F5922834FED000BA70B /* R.generated.swift */,
+				13C2644422B4767100535770 /* Aula sexta.md */,
 			);
 			path = capios;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 				B9448FB42283463D00E342DE /* Assets.xcassets in Resources */,
 				507E1A1122A985B3007E3F2D /* TrainingExercises.storyboard in Resources */,
 				B91ABFD822AEB83A00487E4B /* RxSwiftStoryboard.storyboard in Resources */,
+				13C2644522B4767100535770 /* Aula sexta.md in Resources */,
 				25261A9322ADABB900CCD0E5 /* ContactTableViewCell.xib in Resources */,
 				13BA597722B1B7C800285AE6 /* main.strings in Resources */,
 				B9448FB22283463B00E342DE /* Main.storyboard in Resources */,
@@ -378,6 +385,7 @@
 				B9448FAD2283463B00E342DE /* AppDelegate.swift in Sources */,
 				25261A9B22ADC0C200CCD0E5 /* Contact.swift in Sources */,
 				25261A9222ADABB900CCD0E5 /* ContactTableViewCell.swift in Sources */,
+				13C2644322B46A2F00535770 /* ContatosViewController.swift in Sources */,
 				13C2644122B461C300535770 /* MenuViewController.swift in Sources */,
 				507E1A1422A989D0007E3F2D /* HomeViewController.swift in Sources */,
 				13BA597922B1BD5B00285AE6 /* LoginViewController.swift in Sources */,
